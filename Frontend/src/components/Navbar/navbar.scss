@@ -1,0 +1,15 @@
+.navbar{
+    height: 10vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F9FD;
+    padding: 0 2%;
+    .right-nav{
+        .right-nav-icons{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}

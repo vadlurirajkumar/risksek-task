@@ -1,0 +1,105 @@
+.project-table {
+  width: 100%;
+}
+
+.project-tableHead,
+.project-tableData {
+  text-align: center;
+  word-break: break-all;
+  max-width: 0;
+}
+
+.project-tableHead {
+  background-color: #e6e6e6;
+  color: hsl(0, 0%, 0%);
+  height: 8vh;
+}
+
+.track-button {
+  color: green;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: lightgreen;
+}
+.hold-button {
+  color: grey;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: lightgray;
+}
+.potential-button {
+  color: orange;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+}
+.risk-button {
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: lightpink;
+}
+
+.Add-button {
+  width: 90px;
+  background-color: #7e0af2;
+  float: right;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 10px 20px 10px 0;
+  cursor: pointer;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+.input {
+  padding: 5px 10px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 13px;
+    color: red;
+  }
+}
+.Active {
+  background-color: rgb(52, 172, 228);
+  padding: 2px 3px;
+}
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 4rem;
+  gap: 10px;
+}
+.prev,
+.next {
+  border: none;
+  outline: none;
+  background-color: rgb(93, 178, 218);
+  padding: 1px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+}
